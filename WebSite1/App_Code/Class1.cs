@@ -41,7 +41,7 @@ namespace DataAdapter
                     Console.WriteLine("  {0,-3} {1}", aRow[0], aRow[1]);
                 }
 
-                conn.Close();
+                 conn.Close();
             }
         }
 
